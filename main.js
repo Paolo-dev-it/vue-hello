@@ -9,9 +9,17 @@ var app = new Vue({
   data: {
     message: 'Ciao Boolean!',
     image: './assets/img/pexels-chevanon-photography-1108099.jpg',
-    classeDinamica: 'dimension'
+    classeDinamica: 'dimension',
+    classeDisplay: ''
+    
   },
   methods: {
-
+    saluta: function(){
+        if (this.classeDisplay == 'view' ){
+           return this.classeDisplay = 'd-none'; 
+        } else {
+            return this.classeDisplay = 'view';
+        }
+    }
   }
 })

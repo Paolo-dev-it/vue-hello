@@ -10,8 +10,9 @@
   <body>
     <div id="root">
       <h1>{{ message }}</h1>
+      <button @click="saluta">Scopri l'immagine</button>
       <div>
-        <img :src="image" :class="classeDinamica" alt="" />
+        <img :src="image" :class="[classeDinamica, classeDisplay]" alt="" />
       </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
