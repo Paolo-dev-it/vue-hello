@@ -2,10 +2,21 @@
   width: 500px;
 }
 
+.hide {
+  display: none;
+}
+
 .d-none {
   display: none;
 }
 
 .view {
   display: block;
+}
+
+.btn-style {
+  margin-bottom: 30px;
+  padding: 15px;
+  border-radius: 10px;
+  border: 0;
 }

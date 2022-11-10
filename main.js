@@ -10,8 +10,8 @@ var app = new Vue({
     message: 'Ciao Boolean!',
     image: './assets/img/pexels-chevanon-photography-1108099.jpg',
     classeDinamica: 'dimension',
-    classeDisplay: ''
-    
+    classeDisplay: '',
+    classeHide: 'hide'
   },
   methods: {
     saluta: function(){
